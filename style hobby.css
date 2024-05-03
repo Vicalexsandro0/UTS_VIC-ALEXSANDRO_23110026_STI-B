@@ -1,0 +1,138 @@
+*{
+    text-decoration:none ;
+    margin: 0px;
+    padding:0px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+
+}
+
+.wrapper{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: gray;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height:  50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:black ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color:darkgray;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.image-container {
+    width: 300px; /* Sesuaikan dengan lebar gambar Anda */
+}
+
+.image-border {
+    border: 2px solid black; /* Sesuaikan dengan ketebalan dan warna yang diinginkan */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.image-border {
+float: left; /* Mengapit gambar di sebelah kanan */
+margin-top: 10px; /* Atur jarak antara gambar profil dan navigasi */
+display: block; /* Pastikan gambar dianggap sebagai blok */
+margin-right: 10px;
+margin-left: 10px;
+margin-top: 10px;
+}
+.image-container {
+    float: left; /* Mengapit gambar di sebelah kanan */
+margin-top: 10px; /* Atur jarak antara gambar profil dan navigasi */
+display: block; /* Pastikan gambar dianggap sebagai blok */
+margin-right: 10px;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.hobby-section {
+    text-align: center;
+    padding: 50px 0;
+    font :grey ;
+}
+
+.hobby-container {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+}
+
+.hobby-item {
+    width: 300px;
+    margin: 20px;
+    background-color: black;
+    ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: grey;
+    transition: transform 0.3s ease;
+}
+
+.hobby-item:hover {
+    transform: translateY(-5px);
+}
+
+.hobby-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-bottom: 2px solid black;
+}
+
+.hobby-item h3 {
+    margin: 10px 0;
+}
+
+.hobby-item p {
+    padding: 0 20px;
+}

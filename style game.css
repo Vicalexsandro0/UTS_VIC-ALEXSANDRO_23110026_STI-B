@@ -1,0 +1,108 @@
+*{
+    text-decoration:none ;
+    margin: 0px;
+    padding:0px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+
+}
+
+.wrapper{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: gray;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height:  50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:black ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: #f0f0f0; /* Warna latar belakang */
+    background-image: url('background\ game.jpg'); /* Gambar latar belakang */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    background-size: cover; /* Menyesuaikan ukuran gambar dengan layar */
+    background-position: under; /* Posisi gambar di tengah */
+}
+
+.game-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .game-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .game-item img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .game-item h2 {
+    color: #333;
+  }
+  
+  .game-item p {
+    color: #666;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }

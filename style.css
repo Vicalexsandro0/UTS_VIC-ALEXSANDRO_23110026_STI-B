@@ -1,0 +1,93 @@
+*{
+    text-decoration:none ;
+    margin: 0px;
+    padding:0px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+
+}
+
+.wrapper{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: gray;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height:  50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:black ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.moving-text {
+    font: black ;
+    position: fixed; /* Untuk memastikan teks tetap di tengah bahkan saat menggulir */
+    top: 50%; /* Mengatur jarak dari atas sejauh 50% */
+    left: 50%; /* Mengatur jarak dari kiri sejauh 50% */
+    transform: translate(-50%, -50%); /* Menggeser teks ke atas dan ke kiri sebesar setengah dari ukuran teks itu sendiri */
+    font-size: 24px; /* Ukuran teks */
+    font-family: Arial, sans-serif; /* Jenis font */
+    border: 2px solid black; /* Tambahkan border hitam dengan ketebalan 2px */
+    padding: 10px; /* Tambahkan padding untuk memberikan ruang di sekitar teks */
+    border-radius: 20px; /* Menentukan radius sudut untuk membuat ujung border menjadi lengkung */
+    position: absolute;
+    white-space: nowrap;
+    animation: move 10s linear infinite;
+}
+
+
+body {
+    background-color: #f0f0f0; /* Warna latar belakang */
+    background-image: url('Green\ and\ Cream\ Photographic\ Blogger\ Bio-Link\ Website.jpg'); /* Gambar latar belakang */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    background-size: cover; /* Menyesuaikan ukuran gambar dengan layar */
+    background-position: under; /* Posisi gambar di tengah */
+}
+
+
+

@@ -1,0 +1,121 @@
+*{
+    text-decoration:none ;
+    margin: 0px;
+    padding:0px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+
+}
+
+.wrapper{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: gray;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height:  50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:black ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.profile-img{
+    float: left; 
+    margin-top: 1%; 
+    display: block; 
+    
+    margin-left: 185px;
+    border-radius: 3%; 
+}
+.table tr th td {
+    width: 90%;
+    margin: 50px;
+    border-collapse: collapse;
+    margin-top: 10%;
+    margin-bottom: 60%;
+    margin-left: 100px;
+    
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 4px solid blue;
+}
+th {
+    background-color: blue;
+}
+
+.teks-profile{
+    width: 600px;
+    margin: 0 auto;
+}
+p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.teks-profile 
+{
+    font: blue ;
+    position: fixed; 
+    top: 59%; 
+    left: 52%; 
+    transform: translate(-50%, -50%); 
+    font-size: 40px; 
+margin-left: 59px;
+    font-family: Arial, sans-serif; 
+    padding: 1px; 
+    border-radius: 5px; 
+    text-align: left;
+    bottom: 200px;
+}

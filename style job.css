@@ -1,0 +1,115 @@
+*{
+    text-decoration:none ;
+    margin: 0px;
+    padding:0px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+
+}
+
+.wrapper{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: gray;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height:  50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:black ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color:darkgray;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+ body {
+    background-color: green;
+ }
+
+ .job-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .job {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    border-top: 100px;
+  }
+  
+  .job p {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .apply-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .apply-btn:hover {
+    background-color: #45a049;
+  }
+  .band {
+    margin-top: 40px;
+    margin-right: 40px;
+  }
+
+  .job-section image{
+    max-width: 200px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+

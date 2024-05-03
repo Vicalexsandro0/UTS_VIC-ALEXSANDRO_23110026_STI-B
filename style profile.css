@@ -1,0 +1,131 @@
+
+*{
+    text-decoration:none ;
+    margin: 0px;
+    padding:0px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+
+}
+
+.wrapper{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: gray;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height:  50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:black ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color:darkgray;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.profile-img {
+    float: left; /* Mengapit gambar di sebelah kanan */
+    margin-top: 10px; /* Atur jarak antara gambar profil dan navigasi */
+    display: block; /* Pastikan gambar dianggap sebagai blok */
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 45px;
+    border-radius: 20%; /* Membuat gambar profil menjadi bentuk lingkaran */
+}
+
+body {
+    background-color: darkgrey; /* Warna latar belakang */
+    color:black;
+}
+
+.profile-info {
+    flex: 1; /* Biarkan elemen ini mengambil sisa ruang di sebelah kanan gambar profil */
+    
+}
+.profile-info p {
+    margin-top: 20px; /* Beri margin atas untuk paragraf */
+    margin-right: 300px;
+    margin: 5px 0; /* Berikan margin atas dan bawah 5 piksel */
+    
+
+}
+
+
+.table tr th td {
+    width: 90%;
+    margin: 50px;
+    border-collapse: collapse;
+    margin-top: 10%;
+    margin-bottom: 50%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 4px solid gray;
+}
+th {
+    background-color: gray;
+}
+
+.thick-black-hr {
+    border: none;
+    background-color: black;
+    height: 3px; /* Sesuaikan dengan ketebalan yang diinginkan */
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+

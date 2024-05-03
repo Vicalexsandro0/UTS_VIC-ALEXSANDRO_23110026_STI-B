@@ -1,0 +1,90 @@
+*{
+    text-decoration:none ;
+    margin: 0px;
+    padding:0px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+
+}
+
+.wrapper{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: gray;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height:  50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:black ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color:darkgray;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+ body {
+    background-color: darkgray;
+ }
+
+ .logo-itbss{
+    float: left; /* Mengapit gambar di sebelah kanan */
+    margin-top: 40px; /* Atur jarak antara gambar profil dan navigasi */
+ display: block;/* Pastikan gambar dianggap sebagai blok */
+    margin-right: 40px;
+    border-radius: 3%; /* Membuat gambar profil menjadi bentuk lingkaran */
+}
+
+.teks-prodi
+{
+    font: rgb(81, 49, 49) ;
+    position: fixed; /* Untuk memastikan teks tetap di tengah bahkan saat menggulir */
+    top: 55%; /* Mengatur jarak dari atas sejauh 50% */
+    left: 49%; /* Mengatur jarak dari kiri sejauh 50% */
+    transform: translate(-50%, -50%); /* Menggeser teks ke atas dan ke kiri sebesar setengah dari ukuran teks itu sendiri */
+    font-size: 18px; /* Ukuran teks */
+    font-family: Arial, sans-serif; /* Jenis font */
+    padding: 20px; /* Tambahkan padding untuk memberikan ruang di sekitar teks */
+    border-radius: 10px; /* Menentukan radius sudut untuk membuat ujung border menjadi lengkung */   
+    text-align: left;
+}
